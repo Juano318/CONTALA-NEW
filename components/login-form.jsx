@@ -108,7 +108,7 @@ export default function LoginForm() {
           </form>
           <div className="">
             <div className="mx-auto w-1/2">
-              <GoogleLoginButton />
+            <GoogleLoginButton origin={process.env.NEXT_PUBLIC_ORIGIN || ''} />
             </div>
           </div>
           <div className="text-center text-sm text-gray-600 mt-4">
